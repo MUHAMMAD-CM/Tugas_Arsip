@@ -46,9 +46,13 @@ Aplikasi **Arsip Mobile** adalah sistem pengelolaan arsip berbasis **Flutter + G
 ## 📸 Screenshot
 Tampilan utama aplikasi:
 
-| Home | Detail Arsip | Edit Arsip |
+| Home | Detail Arsip | Kategori |
 |------|--------------|------------|
-| ![Home](screenshots/home.png) | ![Detail](screenshots/detail.png) | ![Edit](screenshots/edit.png) |
+| ![Home](screenshoot/arsip.jpg) | ![Detail](screenshoot/lihat.jpg) | ![Edit](screenshoot/kategori.jpg) |
+
+| About Me |
+|------|
+| ![Home](screenshoot/Fajar Sapto Mukti Raharjo.jpg) |
 
 ---
 
