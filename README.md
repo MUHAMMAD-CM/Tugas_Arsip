@@ -51,8 +51,8 @@ Tampilan utama aplikasi:
 | ![Home](screenshoot/arsip.jpg) | ![Detail](screenshoot/lihat.jpg) | ![Edit](screenshoot/kategori.jpg) |
 
 | About Me |
-|------|
-| ![Home](screenshoot/Fajar Sapto Mukti Raharjo.jpg) |
+|----------|
+| ![Home](screenshoot/AboutMe.jpg) |
 
 ---
 
