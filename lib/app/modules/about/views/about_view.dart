@@ -67,39 +67,39 @@ class AboutView extends GetView<AboutController> {
                     color: Colors.amber,
                     shape: BoxShape.circle,
                     image: DecorationImage(
-                      image: AssetImage("assets/edittttt.jpg"),
+                      image: AssetImage("assets/foto.jpg"),
                       fit: BoxFit.cover,
                     ),
                   ),
-                  child: Align(
-                    alignment: Alignment.bottomRight,
-                    child: IconButton(
-                      iconSize: 31,
-                      onPressed: () {
-                        Get.snackbar("Mangeak", "Selamat anda tertipu");
-                      },
-                      icon: Container(
-                        width: 31,
-                        height: 31,
-                        padding: EdgeInsets.all(7),
-                        decoration: BoxDecoration(
-                          color: Color(0xFFEE8924),
-                          shape: BoxShape.circle,
-                        ),
-                        child: Icon(
-                          Icons.edit,
-                          color: Color(0xFFFFFFFF),
-                          size: 18,
-                        ),
-                      ),
-                    ),
-                  ),
+                  // child: Align(
+                  //   alignment: Alignment.bottomRight,
+                  //   child: IconButton(
+                  //     iconSize: 31,
+                  //     onPressed: () {
+                  //       Get.snackbar("Mangeak", "Selamat anda tertipu");
+                  //     },
+                  //     icon: Container(
+                  //       width: 31,
+                  //       height: 31,
+                  //       padding: EdgeInsets.all(7),
+                  //       decoration: BoxDecoration(
+                  //         color: Color(0xFFEE8924),
+                  //         shape: BoxShape.circle,
+                  //       ),
+                  //       child: Icon(
+                  //         Icons.edit,
+                  //         color: Color(0xFFFFFFFF),
+                  //         size: 18,
+                  //       ),
+                  //     ),
+                  //   ),
+                  // ),
                 ),
               ),
               const SizedBox(height: 18),
               Center(
                 child: Text(
-                  "Fajar Sapto Mukti Raharjo",
+                  "MUHAMMAD SU'ADI",
                   style: GoogleFonts.poppins(
                     color: Color(0xFF262422),
                     fontSize: 20,
@@ -109,7 +109,7 @@ class AboutView extends GetView<AboutController> {
               ),
               Center(
                 child: Text(
-                  "Mobile Developer",
+                  "IT Support",
                   style: GoogleFonts.poppins(
                     color: Color(0xFFABABAB),
                     fontSize: 14,
@@ -124,10 +124,10 @@ class AboutView extends GetView<AboutController> {
                 icon: Icons.play_lesson_outlined,
               ),
               const SizedBox(height: 20),
-              field(name: "2231740018", label: "NIM", icon: Icons.numbers),
+              field(name: "2231740040", label: "NIM", icon: Icons.numbers),
               const SizedBox(height: 20),
               field(
-                name: "15 September 2025",
+                name: "12 - 30 September 2025",
                 label: "Tanggal",
                 icon: Icons.calendar_month,
               ),
