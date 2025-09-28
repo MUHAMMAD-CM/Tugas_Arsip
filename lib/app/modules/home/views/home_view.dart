@@ -224,8 +224,9 @@ class HomeView extends GetView<HomeController> {
                                         backgroundColor: Colors.orange,
                                       ),
                                       onPressed:
-                                          () => controller.downloadArchive(
-                                            archive.id.toString(),
+                                          () => controller.movePdfToDownload(
+                                            archive.filePath,
+                                            archive.judul,
                                           ),
                                       child: const Text(
                                         "Unduh",

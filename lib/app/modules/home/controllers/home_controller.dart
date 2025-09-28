@@ -1,7 +1,10 @@
+import 'dart:io';
+
 import 'package:arsip_mobile/app/data/models/ArchiveWithCategory.dart';
 import 'package:arsip_mobile/app/data/models/category_model.dart';
 import 'package:arsip_mobile/app/data/services/db_service.dart';
 import 'package:get/get.dart';
+import 'package:permission_handler/permission_handler.dart';
 import '../../../data/models/archive_model.dart';
 
 class HomeController extends GetxController {
@@ -69,8 +72,43 @@ class HomeController extends GetxController {
     loadArchives();
   }
 
-  void downloadArchive(String archive) {
-    // TODO: implementasi unduh PDF (misalnya pakai open_filex atau dio)
+  Future<String?> movePdfToDownload(String appFilePath, String fileName) async {
+    final status = await Permission.storage.status;
+
+    if (status.isDenied) {
+      // minta permission
+      final requestStatus = await Permission.manageExternalStorage.request();
+      if (!requestStatus.isGranted) {
+        Get.snackbar("Izin ditolak", "Tidak bisa menyimpan file tanpa izin");
+        return null;
+      }
+    } else if (status.isPermanentlyDenied) {
+      // arahkan user ke settings
+      Get.snackbar(
+        "Izin diperlukan",
+        "Silakan aktifkan izin penyimpanan di pengaturan",
+      );
+      await openAppSettings();
+      return null;
+    }
+
+    // jika sudah granted
+    final downloadDir = Directory('/storage/emulated/0/Download');
+    if (!await downloadDir.exists()) {
+      await downloadDir.create(recursive: true);
+    }
+
+    final newPath = '${downloadDir.path}/$fileName.pdf';
+    final file = File(appFilePath);
+
+    if (!file.existsSync()) {
+      Get.snackbar("Error", "File sumber tidak ditemukan");
+      return null;
+    }
+
+    final newFile = await file.copy(newPath);
+    Get.snackbar("Sukses", "File telah didownload di $newPath");
+    return newFile.path;
   }
 
   void viewArchive(String archive) {
