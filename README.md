@@ -23,9 +23,10 @@ Aplikasi **Arsip Mobile** adalah sistem pengelolaan arsip berbasis **Flutter + G
 ---
 
 ## 🚀 Cara Menjalankan
+Link Repositori https://github.com/AmigoSniper/arsip_mobile_flutter
 1. Clone repository:
    ```bash
-   git clone https://github.com/username/arsip-mobile.git
+   git clone https://github.com/AmigoSniper/arsip_mobile_flutter.git
    cd arsip-mobile
    ```
 
