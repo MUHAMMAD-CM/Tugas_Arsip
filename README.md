@@ -1,32 +1,22 @@
 # 📂 Arsip Mobile
 
-Aplikasi **Arsip Mobile** adalah sistem pengelolaan arsip berbasis **Flutter + GetX** yang memungkinkan pengguna untuk menyimpan, melihat, mengedit, dan mengunduh dokumen PDF dengan mudah di perangkat Android.
-
----
-
-## 🎯 Tujuan
-- Mempermudah pengarsipan surat/dokumen digital.  
-- Menyediakan akses cepat ke dokumen melalui pencarian dan kategori.  
-- Memberikan fitur edit dan unduh arsip secara langsung dari aplikasi.  
-
+Arsip Mobile dikembangkan dengan Flutter + GetX sebagai solusi efisien untuk mengelola arsip digital — memungkinkan pengguna menyimpan, meninjau, mengedit, dan mengunduh dokumen PDF secara praktis melalui perangkat Android.
 ---
 
 ## ✨ Fitur
 - 📑 Tambah arsip baru (upload PDF + metadata).  
 - 🔍 Kelola arsip berdasarkan kategori.  
 - 📝 Edit informasi arsip (nomor surat, judul, kategori, file).  
-- 📤 Unduh arsip ke folder **Download** perangkat.  
-- 📖 Viewer PDF bawaan untuk membaca dokumen.  
-- ⚡ Snackbar interaktif dengan styling & efek blur.  
-- 🎨 UI responsif dengan state management **GetX**.  
+- 📤 Donlonad arsip ke folder perangkat.  
+
 
 ---
 
 ## 🚀 Cara Menjalankan
-Link Repositori https://github.com/AmigoSniper/arsip_mobile_flutter
+Link Repositori https://github.com/MUHAMMAD-CM/arsip_mobile_flutter
 1. Clone repository:
    ```bash
-   git clone https://github.com/AmigoSniper/arsip_mobile_flutter.git
+   git clone https://github.com/MUHAMMAD-CM/arsip_mobile_flutter.git
    cd arsip-mobile
    ```
 
@@ -44,27 +34,14 @@ Link Repositori https://github.com/AmigoSniper/arsip_mobile_flutter
 
 ---
 
-## 📸 Screenshot
-Tampilan utama aplikasi:
-
-| Home | Detail Arsip | Kategori |
-|------|--------------|------------|
-| ![Home](screenshoot/arsip.jpg) | ![Detail](screenshoot/lihat.jpg) | ![Edit](screenshoot/kategori.jpg) |
-
-| About Me |
-|----------|
-| ![Home](screenshoot/AboutMe.jpg) |
-
 ---
 
 ## 📌 Teknologi
 - [Flutter](https://flutter.dev/)  
 - [GetX](https://pub.dev/packages/get)  
 - [SQLite](https://pub.dev/packages/sqflite)  
-- [flutter_pdfview](https://pub.dev/packages/flutter_pdfview)  
-- [permission_handler](https://pub.dev/packages/permission_handler)  
 
 ---
 
 ## 👨‍💻 Author
-Dikembangkan oleh **[Fajar Sapto Mukti Raharjo]** untuk kebutuhan manajemen arsip digital.
+ **[MUHAMMAD SUADI - 2231740040]** 
