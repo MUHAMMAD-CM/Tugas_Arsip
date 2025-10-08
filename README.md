@@ -22,9 +22,9 @@ Arsip Mobile dikembangkan dengan Flutter + GetX sebagai solusi efisien untuk men
 |----------------|------------------|-------------|
 | <img src="screenshoot/katagori surat.jpg" width="250"/> | <img src="screenshoot/tambah katagori.jpg" width="250"/> | <img src="screenshoot/crud arsip.jpg" width="250"/> |
 
-| Arsip | Lihat Detail | Tentang Aplikasi |
-|-------|---------------|------------------|
-| <img src="screenshoot/arsip.jpg" width="250"/> | <img src="screenshoot/lihat.jpg" width="250"/> | <img src="screenshoot/AboutMe.jpg" width="250"/> |
+| Kategori Surat | Tambah Kategori | CRUD Arsip |
+|----------------|------------------|-------------|
+| <img src="screenshoot/about.jpg" width="250"/> | <img src="screenshoot/crud arsip.jpg" width="250"/> | 
 
 ---
 
@@ -42,3 +42,17 @@ Arsip Mobile dikembangkan dengan Flutter + GetX sebagai solusi efisien untuk men
 2. Install dependencies:
    ```bash
    flutter pub get
+
+3. Jalankan aplikasi di emulator/device:
+bash
+   flutter run
+
+
+---
+
+
+## Teknologi - [Flutter](https://flutter.dev/) - [GetX](https://pub.dev/packages/get) - [SQLite](https://pub.dev/packages/sqflite)
+
+ ---
+
+## Author **[MUHAMMAD SUADI - 2231740040]**
