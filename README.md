@@ -24,7 +24,7 @@ Arsip Mobile dikembangkan dengan Flutter + GetX sebagai solusi efisien untuk men
 
 | Tentang Aplikasi |
 |------------------|
-| <img src="screenshoot/about.jpg" width="250"/> |
+| <img src="screenshoot/abaout.jpg" width="250"/> |
 
 
 ---
