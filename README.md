@@ -22,9 +22,10 @@ Arsip Mobile dikembangkan dengan Flutter + GetX sebagai solusi efisien untuk men
 |----------------|------------------|-------------|
 | <img src="screenshoot/katagori surat.jpg" width="250"/> | <img src="screenshoot/tambah katagori.jpg" width="250"/> | <img src="screenshoot/crud arsip.jpg" width="250"/> |
 
-| Kategori Surat | Tambah Kategori | CRUD Arsip |
-|----------------|------------------|-------------|
-| <img src="screenshoot/about.jpg" width="250"/> | <img src="screenshoot/crud arsip.jpg" width="250"/> | 
+| Tentang Aplikasi |
+|------------------|
+| <img src="screenshoot/about.jpg" width="250"/> |
+
 
 ---
 
